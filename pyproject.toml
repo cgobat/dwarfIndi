@@ -39,6 +39,10 @@ development = [
   "httpx[cli]>=0.28.1",
   "ruff>=0.14.0"
 ]
+indi = [
+  "astropy>=5",
+  "pyindi"
+]
 
 [project.scripts]
 dwarf-alpaca = "dwarf_alpaca.cli:main"
